@@ -162,5 +162,5 @@ $server = IoServer::factory(
 );
 
 // Mensaje indicando que el servidor esta activo (lo pongo para ver que me conecta correctaemente)
-echo "EL  Servidor WebSocket se ha iniciado en el puerto 8081...\n";
+echo "EL Servidor WebSocket se ha iniciado en el puerto $ws_port...\n";
 $server->run();
