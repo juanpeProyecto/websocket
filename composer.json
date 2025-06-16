@@ -1,0 +1,13 @@
+{
+    "name": "restaurante/proyecto-final",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Restaurante\\ProyectoFinal\\": "src/"
+        }
+    },
+    "require": {
+        "cboden/ratchet": "^0.4.4",
+        "textalk/websocket": "^1.5"
+    }
+}
