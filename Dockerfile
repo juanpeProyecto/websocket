@@ -13,3 +13,4 @@ COPY . /app
 EXPOSE 80
 
 CMD ["php", "/app/servidorWebsocket.php", "80"]
+#esto es un ejemplo 
